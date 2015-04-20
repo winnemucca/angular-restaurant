@@ -1,0 +1,228 @@
+body {
+	background: rgba(109,0,25,1);
+background: -moz-linear-gradient(left, rgba(109,0,25,1) 0%, rgba(135,2,32,1) 42%, rgba(143,2,34,1) 56%, rgba(144,2,34,1) 57%, rgba(169,3,41,1) 74%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(109,0,25,1)), color-stop(42%, rgba(135,2,32,1)), color-stop(56%, rgba(143,2,34,1)), color-stop(57%, rgba(144,2,34,1)), color-stop(74%, rgba(169,3,41,1)));
+background: -webkit-linear-gradient(left, rgba(109,0,25,1) 0%, rgba(135,2,32,1) 42%, rgba(143,2,34,1) 56%, rgba(144,2,34,1) 57%, rgba(169,3,41,1) 74%);
+background: -o-linear-gradient(left, rgba(109,0,25,1) 0%, rgba(135,2,32,1) 42%, rgba(143,2,34,1) 56%, rgba(144,2,34,1) 57%, rgba(169,3,41,1) 74%);
+background: -ms-linear-gradient(left, rgba(109,0,25,1) 0%, rgba(135,2,32,1) 42%, rgba(143,2,34,1) 56%, rgba(144,2,34,1) 57%, rgba(169,3,41,1) 74%);
+background: linear-gradient(to right, rgba(109,0,25,1) 0%, rgba(135,2,32,1) 42%, rgba(143,2,34,1) 56%, rgba(144,2,34,1) 57%, rgba(169,3,41,1) 74%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', endColorstr='#a90329', GradientType=1 );
+font-family: lato;
+color: black;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	background: green;
+	color:white;
+	font-weight: bold;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	text-align: center;
+}
+.banner {
+	margin: 20px;
+	font-family: lato;
+	font-size: 18px;
+}
+
+/*
+carousel
+ */
+#myCarousel {
+	margin: 40px 0 20px 0;
+}
+.carousel-caption h4 {
+
+}
+#myCarousel .item {
+	height:400px;
+
+}
+#slide1 {
+	background: url('http://img1.sunset.timeinc.net/sites/default/files/image/2011/09/savor-the-west-basque-restaurant-l.jpg') top left no-repeat;
+
+}
+#slide2 {
+	background: url('http://media.smithsonianmag.com/images/Food-Culture-Basque-Revolution-631.jpg') top left no-repeat;
+		background-size:100% 100%;
+}#slide3 {
+	background: url('http://www.lepetitchomel.com/wcms/img/chez-gladines-basque-restaurant-in-paris-size-205981-600-250.jpg') top left no-repeat;
+	background-size: 100% 100%;
+}
+.side {
+	padding:0;
+	height: 195px;
+	position: relative;
+}
+.side img{
+	width: 100%;
+	height: 100%;
+
+}
+.special, .special img {
+	height: 420px;
+}
+
+.content-back {
+	background: rgb(253, 252, 252);
+	margin: 1.5%;
+}
+.mid-colGrid, .end-colGrid {
+	margin-top: 40px;
+}
+
+.entree {
+	margin-bottom: 20px;
+	/*height: 150px;*/
+}
+
+.special {
+	margin:20px 0;
+	/*opacity: 0.5;*/
+	background: url('http://farm3.static.flickr.com/2509/3932765831_95ed5c1c3c_b.jpg') center center  no-repeat;
+	background-size: 100% 100%;
+	/*filter: blur(15px) grayscale(20%);*/
+	opacity: 0.6;
+	height: 410px;
+
+}
+.special img {
+	height: 100%;
+}
+.mealBanner {
+	  opacity: 1;
+	  position: relative;
+	  font-size: 20px;
+	  top: 20px;
+	  text-align: center;
+	  color: white;
+	  background:green;
+	  z-index: 1;
+
+}
+.description {
+	background: none;
+
+}
+.pitch {
+	background: green;
+	color: white;
+
+}
+.salePitch {
+	margin: 2.5%;
+	position: relative;
+	left:30px;
+	top:20px;
+}
+.title {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Oleo Script';
+	color: white;
+	background: green;
+}
+.heading {
+	background: green;
+	color: white;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 5%;
+	z-index: 1;
+	overflow: auto;
+}
+.menu-banner {
+	position: relative;
+}
+.menu-banner img {
+	width: 100%;
+}
+
+.food-list {
+	list-style-type: none;
+	/*font-weight: bold;*/
+	font-size: 16px;
+}
+
+.food-list li:first-child {
+	color:rgba(155, 132, 12, 0.67);
+	font-weight: bold;
+	font-size: 18px;
+}
+.food-list li:nth-child(2) {
+	font-style: italic;
+}
+
+.checkout {
+	background: black;
+	padding: 20px 10px;
+	border: 5px;
+}
+.orderNotice {
+	color: rgb(181, 169, 103);
+	text-align: center;
+
+}
+.table {
+	color: rgb(181, 169, 103);
+
+}
+/*
+
+@media(max-width: 480px){
+#myCarousel .item {
+	height:400px;
+
+}
+#slide1 {
+	background: url('http://img1.sunset.timeinc.net/sites/default/files/image/2011/09/savor-the-west-basque-restaurant-l.jpg') top left no-repeat;
+}
+#slide2 {
+	background: url('http://media.smithsonianmag.com/images/Food-Culture-Basque-Revolution-631.jpg') top left no-repeat;
+}#slide3 {
+	background: url('http://www.lepetitchomel.com/wcms/img/chez-gladines-basque-restaurant-in-paris-size-205981-600-250.jpg') top left no-repeat;
+}
+
+}
+
+@media(max-width: 768px){
+#myCarousel .item {
+	height:310px;
+
+}
+#slide1 {
+	background: url('http://img1.sunset.timeinc.net/sites/default/files/image/2011/09/savor-the-west-basque-restaurant-l.jpg') top left no-repeat;
+}
+#slide2 {
+	background: url('http://media.smithsonianmag.com/images/Food-Culture-Basque-Revolution-631.jpg') top left no-repeat;
+}#slide3 {
+	background: url('http://www.lepetitchomel.com/wcms/img/chez-gladines-basque-restaurant-in-paris-size-205981-600-250.jpg') top left no-rep
+	
+}
+
+.carousel-caption {
+	font-size: 16px;
+}
+.carousel-caption h4 {
+	font-size: 24px;
+}
+
+@media(min-width: 1200px){
+#myCarousel .item {
+	height:500px;
+
+}
+	#slide1 {
+	background: url('http://img1.sunset.timeinc.net/sites/default/files/image/2011/09/savor-the-west-basque-restaurant-l.jpg') top left no-repeat;
+}
+#slide2 {
+	background: url('http://media.smithsonianmag.com/images/Food-Culture-Basque-Revolution-631.jpg') top left no-repeat;
+}#slide3 {
+	background: url('http://www.lepetitchomel.com/wcms/img/chez-gladines-basque-restaurant-in-paris-size-205981-600-250.jpg') top left no-repeat;
+}
+}*/
